@@ -1,0 +1,27 @@
+.generate-pdf-button {
+    font-family: "DM Sans", sans-serif;
+    background: white;
+    color: #28a745;
+    border: 2px solid #28a745;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 800;
+    transition: all 0.3s ease;
+ }
+ 
+ .generate-pdf-button:hover {
+    background-color: #70da87;
+    color: white;
+ }
+
+.success-message {
+    color: #28a745;
+    margin-top: 10px;
+}
+
+.error-message {
+    color: #dc3545;
+    margin-top: 10px;
+}
