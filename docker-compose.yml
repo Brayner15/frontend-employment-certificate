@@ -9,7 +9,7 @@ services:
       - .:/app
       - /app/node_modules
     environment:
-      - VITE_API_URL=http://3.22.51.141:8000
+      - VITE_API_URL=http://3.144.115.3:8000
       - VITE_HOST=0.0.0.0
       - VITE_PORT=5173
     networks:
